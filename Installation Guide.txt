@@ -1,0 +1,35 @@
+Setup Instructions
+Backend:
+
+Clone repository
+
+Create virtual environment:
+
+bash
+Copy
+python -m venv venv
+source venv/bin/activate
+Install dependencies:
+
+bash
+Copy
+pip install -r requirements.txt
+Run locally:
+
+bash
+Copy
+uvicorn backend.main:app --reload
+Frontend:
+
+Install Node.js (v18+)
+
+Install dependencies:
+
+bash
+Copy
+npm install
+Run locally:
+
+bash
+Copy
+npm run dev
