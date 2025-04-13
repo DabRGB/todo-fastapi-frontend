@@ -4,8 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
-    "render-build": "npm install --ignore-scripts && npm run build"
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.8.4",
