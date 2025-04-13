@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: todo-react-frontend
-    runtime: node
-    buildCommand: npm install && npm run build
-    staticPublishPath: ./dist
-    envVars:
-      - key: VITE_API_BASE_URL
-        value: https://todo-fastapi-backend-emxz.onrender.com
